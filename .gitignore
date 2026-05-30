@@ -16,4 +16,6 @@ data/
 *.bin
 
 # Jupyter
-.ipynb_checkpoints/
+.ipynb_checkpoints/"lesson_26.ipynb" 
+"lesson_30.ipynb" 
+".ipynb_checkpoints/" 
