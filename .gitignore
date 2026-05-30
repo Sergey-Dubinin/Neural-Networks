@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Данные и модели
+data/
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Jupyter
+.ipynb_checkpoints/
