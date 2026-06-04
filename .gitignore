@@ -3,6 +3,10 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Виртуальные окружения Python
+venv/
+.venv/
+
 # IDE
 .vscode/
 .idea/
