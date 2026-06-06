@@ -1,0 +1,42 @@
+name: 🐛 Сообщение об ошибке (Bug Report)
+description: Сообщите об ошибке в коде, опечатке в формуле или проблеме с запуском ноутбука.
+title: "[Bug]: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо, что помогаете делать курс лучше! Пожалуйста, заполните форму максимально подробно.
+  - type: input
+    id: lesson_number
+    attributes:
+      label: Номер урока / Название файла
+      description: В каком именно ноутбуке возникла проблема? (например, 05_gradient_descent.ipynb)
+      placeholder: 05_gradient_descent.ipynb
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Где вы запускали код?
+      options:
+        - Google Colab
+        - Локально (мой компьютер)
+        - Kaggle
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание проблемы
+      description: Что ожидалось и что произошло на самом деле?
+      placeholder: "В ячейке №4 возникает ошибка NameError..."
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Текст ошибки (если есть)
+      description: Скопируйте и вставьте полный текст ошибки (Traceback).
+      render: shell
