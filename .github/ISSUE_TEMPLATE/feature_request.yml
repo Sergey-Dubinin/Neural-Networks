@@ -1,0 +1,18 @@
+name: 💡 Предложение новой темы или улучшения
+description: Хотите, чтобы я добавил урок по конкретной теме или улучшил существующий материал?
+title: "[Feature]: "
+labels: ["enhancement", "discussion"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Описание идеи
+      description: Какую тему стоит раскрыть или что улучшить в текущих ноутбуках?
+      placeholder: "Было бы здорово добавить урок по механизму RoPE (Rotary Position Embedding)..."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Почему это важно?
+      description: Как эта тема поможет студентам курса?
