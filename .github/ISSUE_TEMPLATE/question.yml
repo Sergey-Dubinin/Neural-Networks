@@ -1,0 +1,21 @@
+name: ❓ Вопрос по материалу
+description: Что-то непонятно в теории, формулах или логике кода? Задайте вопрос здесь.
+title: "[Question]: "
+labels: ["question", "education"]
+body:
+  - type: input
+    id: lesson_number
+    attributes:
+      label: Номер урока
+      description: К какому уроку относится ваш вопрос?
+      placeholder: Например, 15_activation_functions.ipynb
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Ваш вопрос
+      description: Опишите, что именно вызывает затруднение. Можно указать номер ячейки или минуту в видео.
+      placeholder: "Не совсем понятно, почему в формуле градиента появляется множитель 2..."
+    validations:
+      required: true
