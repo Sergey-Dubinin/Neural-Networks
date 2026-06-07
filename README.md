@@ -55,7 +55,7 @@
 | 25 | Борьба с переобучением - Dropout | [Открыть](./25_overfitting_Dropout.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sergey-Dubinin/Neural-Networks/blob/main/25_overfitting_Dropout.ipynb) | [▶️ Смотреть](https://youtu.be/k-m5N80MoYo) |
 | 26 | Реализация свёрточного слоя | [Открыть](./26_Convolutional_layer.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sergey-Dubinin/Neural-Networks/blob/main/26_Convolutional_layer.ipynb) | [▶️ Смотреть](https://youtu.be/H7JeDCrbFbM) |
 | 27 | Tokenization, Embeddings | ❌ | ❌ | [▶️ Смотреть](https://youtu.be/VlJNtLmLkGY) |
-| 28 | Attention - Механизм внимания | ❌ | ❌ | 📅 07.06.2026 |
+| 28 | Attention - Механизм внимания | ❌ | ❌ | [▶️ Смотреть](https://youtu.be/6BhWBfWddas) |
 | 29 | Self-Attention, Multi-Head Attention | ❌ | ❌ | 📅 10.06.2026 |
 | 30 | Прямой и обратный проход через Multi-Head Attention | [Открыть](./30_Encoder_and_Visualization.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sergey-Dubinin/Neural-Networks/blob/main/30_Encoder_and_Visualization.ipynb) | 📅 13.06.2026 |
 
